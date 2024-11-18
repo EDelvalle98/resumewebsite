@@ -21,6 +21,30 @@ header {
     margin-bottom: 20px;
 }
 
+.profileImg img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #005bb5;
+}
+
 header h1 {
     margin: 0;
     font-size: 2em;
